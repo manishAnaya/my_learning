@@ -1,0 +1,3 @@
+Apple | 320
+Guava | 80
+Grapes | 200

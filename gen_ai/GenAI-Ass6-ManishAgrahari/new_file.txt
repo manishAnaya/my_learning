@@ -1,0 +1,3 @@
+Python is an amazing programming language.
+It is easy to learn and powerful to use.
+We are exploring append mode also

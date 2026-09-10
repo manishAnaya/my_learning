@@ -1,0 +1,3 @@
+Banana | 45
+Tomato | 15
+Onion | 55
