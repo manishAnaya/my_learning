@@ -1,0 +1,37 @@
+[
+    {
+        "product_id": 101,
+        "product_name": "Laptop",
+        "category": "Electronics",
+        "price": 65000,
+        "stock": 25
+    },
+    {
+        "product_id": 102,
+        "product_name": "Wireless Mouse",
+        "category": "Accessories",
+        "price": 1200,
+        "stock": 80
+    },
+    {
+        "product_id": 103,
+        "product_name": "Keyboard",
+        "category": "Accessories",
+        "price": 2500,
+        "stock": 45
+    },
+    {
+        "product_id": 104,
+        "product_name": "Monitor",
+        "category": "Electronics",
+        "price": 18000,
+        "stock": 30
+    },
+    {
+        "product_id": 105,
+        "product_name": "Headphones",
+        "category": "Audio",
+        "price": 3500,
+        "stock": 60
+    }
+]
