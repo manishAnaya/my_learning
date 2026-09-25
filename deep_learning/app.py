@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 from tensorflow.keras.models import load_model
 import pickle
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
 
 
 st.title('Passenger Survival Probability - Using Deep Learning')
@@ -54,21 +57,15 @@ user = pd.DataFrame([
 
 
 # Load trained model
-trained_model = load_model('model.h5')
+trained_model = load_model(BASE_DIR / 'model.h5')
 
-
-# Load Label Encoder
-with open('lable_encoder.pkl', 'rb') as file:
+with open(BASE_DIR / 'lable_encoder.pkl', 'rb') as file:
     label = pickle.load(file)
 
-
-# Load One Hot Encoder
-with open('one_hot_encoder.pkl', 'rb') as file:
+with open(BASE_DIR / 'one_hot_encoder.pkl', 'rb') as file:
     one_hot = pickle.load(file)
 
-
-# Load Scaler
-with open('scale.pkl', 'rb') as file:
+with open(BASE_DIR / 'scale.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 
