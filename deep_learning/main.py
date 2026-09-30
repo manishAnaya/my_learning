@@ -3,10 +3,13 @@ from keras.models import load_model
 import pickle
 from keras.utils import pad_sequences
 import numpy as np
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
 
 model = load_model('rrn_model.h5')
 
-with open('tokenizer.pkl', 'rb') as file:
+with open(BASE_DIR / 'tokenizer.pkl', 'rb') as file:
     tokenizer = pickle.load(file)
 
 st.title('Twitter Tweet Sentiment Analysis')
