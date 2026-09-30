@@ -7,7 +7,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 
-model = load_model('rrn_model.h5')
+model = load_model(BASE_DIR / 'rrn_model.h5')
 
 with open(BASE_DIR / 'tokenizer.pkl', 'rb') as file:
     tokenizer = pickle.load(file)
