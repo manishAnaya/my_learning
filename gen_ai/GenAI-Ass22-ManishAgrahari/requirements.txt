@@ -1,0 +1,12 @@
+python-dotenv
+openai
+sentence-transformers
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-chroma
+faiss-cpu
+chromadb
+ollama
+langchain-ollama

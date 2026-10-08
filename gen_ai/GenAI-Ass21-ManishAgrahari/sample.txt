@@ -1,0 +1,12 @@
+Welcome to the product catalog.
+
+This sample document is for experimenting with a text loader. A text loader reads a plain-text file and turns its contents into a document that can be searched, split into smaller chunks, or used in a language model workflow.
+
+Our store offers practical everyday products, including reusable water bottles, notebooks, desk lamps, and travel bags. When choosing a product, consider its price, materials, size, and intended use.
+
+Example:
+Product: Reusable Water Bottle
+Description: A lightweight stainless-steel bottle for carrying water on the go.
+Category: Home and travel
+
+This is sample data for learning and does not describe a real product listing.
