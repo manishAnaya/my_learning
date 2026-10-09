@@ -1,0 +1,15 @@
+openai
+python-dotenv
+
+langchain
+langchain-classic
+langchain-community
+langchain-huggingface
+langchain-groq
+langchain-text-splitters
+
+wikipedia
+faiss-cpu
+chromadb
+
+youtube-transcript-api
