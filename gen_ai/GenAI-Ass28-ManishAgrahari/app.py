@@ -9,13 +9,16 @@ from dotenv import load_dotenv
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 from langchain_classic.chains import create_retrieval_chain
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
 
 load_dotenv()
 
 # Initialize RAG components once
 @st.cache_resource
 def setup_rag():
-    loader = PyPDFLoader('physical.pdf')
+    loader = PyPDFLoader(BASE_DIR / 'physical.pdf')
 
     docs = loader.load()
 
