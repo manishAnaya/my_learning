@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain-groq
+sqlalchemy
+python-dotenv
+ipykernel
+jupyter
